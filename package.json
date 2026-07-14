@@ -1,8 +1,15 @@
 {
   "name": "solofire-root",
   "version": "1.0.0",
+  "description": "Root package for Solo Fire Battle Royal",
+  "main": "backend/server.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "install-backend": "cd backend && npm install"
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
   }
 }
